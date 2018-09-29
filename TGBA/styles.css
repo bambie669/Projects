@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #3E403B;
+
+}
+
+.container {
+
+
+}
+
+header {
+  background: #3E403B;
+
+}
+
+header > h1 {
+  padding-top: 10px;
+  color: 	#4FFF6A;
+  text-align: center;
+  font-family: Lato, sans-serif;
+
+}
+
+.score-board {
+  margin: 20px auto;
+  padding: 15px 20px;
+  border:3px solid white;
+  border-radius: 5px;
+  text-align: center;
+  color: #4FFF6A;
+  font-size: 20px;
+  width: 200px;
+  font-family: Lato, sans-serif;
+  position: relative;
+
+}
+
+.badge {
+  background: #25401e;
+  font-size: 14px;
+  padding: 2px 18px;
+  font-family: Lato, sans-serif;
+
+}
+
+#user-label {
+  position: absolute;
+  top: 16px;
+  left: -25px;
+
+}
+
+#computer-label {
+  position: absolute;
+  top: 16px;
+  right: -35px;
+
+}
+
+.result {
+  font-size: 37px;
+  color: white;
+
+}
+
+.result > p {
+text-align: center;
+font-family: Lato, sans-serif;
+color: 	#4FFF6A;
+
+}
+
+#t {
+  width: 100px;
+  border-radius: 50%;
+
+}
+#g {
+  width: 100px;
+  border-radius: 50%;
+
+}
+
+#b {
+  width: 100px;
+  border-radius: 50%;
+
+}
+
+.choices {
+  margin: 50px;
+  text-align: center;
+
+}
+
+.choice {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px;
+
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+
+}
